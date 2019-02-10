@@ -8,10 +8,8 @@ interface Props {
 
 export const UserInfo = ({ user, logout }: Props) => (
   <div>
-    <h2>
-      {user.firstName}
-      <small>{user.email}</small>
-    </h2>
+    <h2>{user.firstName}</h2>
+    <p>{user.email}</p>
     <button onClick={logout}>Logout</button>
   </div>
 );
