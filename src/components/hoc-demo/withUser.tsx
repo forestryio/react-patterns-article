@@ -50,7 +50,7 @@ export function withUser<P extends BaseComponentProps = BaseComponentProps>(
 
     loadUser = (email: string) => {
       loadUser(email)
-        .then(user => this.setUser(user))
+        .then(this.setUser)
         .catch(this.setError);
     };
 
