@@ -1,5 +1,5 @@
 import * as React from "react";
-import { useUser } from "./useCurrentUser";
+import { useUser } from "./useUser";
 import { LoadingScreen } from "../LoadingScreen";
 import { ErrorScreen } from "../ErrorScreen";
 import { UserInfo } from "../UserInfo";
