@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
-import { HocDemo } from "./components/hoc-demo/HocDemo";
-import { RenderPropsDemo } from "./components/render-props-demo/RenderPropsDemo";
-import { HooksDemo } from "./components/hooks-demo/HooksDemo";
+import { HocDemo } from "./components/hoc-demo";
+import { RenderPropsDemo } from "./components/render-props-demo";
+import { HooksDemo } from "./components/hooks-demo";
 
 class App extends Component {
   render() {
